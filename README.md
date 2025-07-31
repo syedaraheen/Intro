@@ -57,12 +57,14 @@ Prediction: Negative
 
 Review: "The film was okay, not great but not terrible either. Some parts were good."
 Prediction: Negative
+````
+
 ## 📊 Example Output: Confusion Matrix
 
 Confusion matrix of predictions on the test set:
 
-|                   | Predicted Negative | Predicted Positive |
-|-------------------|--------------------|--------------------|
+|                     | Predicted Negative | Predicted Positive |
+| ------------------- | ------------------ | ------------------ |
 | **Actual Negative** | 43                 | 7                  |
 | **Actual Positive** | 6                  | 44                 |
 
@@ -78,3 +80,34 @@ Install dependencies via:
 pip install nltk spacy pandas scikit-learn matplotlib seaborn
 python -m nltk.downloader stopwords punkt
 python -m spacy download en_core_web_sm
+```
+
+### ▶️ Run the Notebook
+
+1. Make sure your `IMDB Dataset.csv` is in the same directory.
+2. Open the notebook:
+
+```bash
+jupyter notebook HR_Screening.ipynb
+```
+
+---
+## 📂 Project Structure
+
+```text
+resume_job_matcher/
+├── imdb-dataset/
+│   └── IMDB Dataset.csv
+├── sample.ipynb
+├── README.md
+```
+
+---
+
+## 🙋‍♂️ Author
+
+**Raheen Bukhari**
+
+📧 Email: [raheenbukhari.01@gmail.com](mailto:raheenbukhari.01@gmail.com)  
+🔗 LinkedIn: [@syeda-raheen-bukhari](https://www.linkedin.com/in/syeda-raheen-bukhari-5366aa2b2/)
+
