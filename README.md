@@ -61,12 +61,12 @@ Prediction: Negative
 
 ## 📊 Example Output: Confusion Matrix
 
-Confusion matrix of predictions on the test set:
+Confusion matrix of predictions:
 
 |                     | Predicted Negative | Predicted Positive |
 | ------------------- | ------------------ | ------------------ |
-| **Actual Negative** | 43                 | 7                  |
-| **Actual Positive** | 6                  | 44                 |
+| **Actual Negative** | 44                 | 8                  |
+| **Actual Positive** | 18                 | 30                 |
 
 ---
 
